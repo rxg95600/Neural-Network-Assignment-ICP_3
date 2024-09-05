@@ -34,6 +34,7 @@ Solution:
 Next, the script filters the data based on conditions: rows where Calories is between 500 and 1000, and rows where Calories is greater than 500 and Pulse is less than 100. Additionally, the code removes the 'Maxpulse' column from both a new DataFrame (df_modified) and the original DataFrame, while converting the Calories column to an integer data type. Finally, it creates a scatter plot to visualize the relationship between Duration and Calories, using matplotlib. The results of each operation, including statistical summaries, filtered data, and the scatter plot, are displayed in the notebook.
 
 Output:
+
 ![download](https://github.com/user-attachments/assets/cacf6186-df71-4634-a32e-6e89eb46b3b1)
 
 2.	Linear Regression
@@ -53,6 +54,9 @@ Solution:
 The model is used to make predictions on both the training and testing sets. The Mean Squared Error (MSE) of the predictions on the test set is calculated and printed to evaluate model performance. Finally, the script visualizes the results by plotting scatter plots of both the training and test data, along with their respective regression lines. The plots are displayed with different colors to distinguish between training and test data, helping to visualize the relationship between years of experience and salary, as well as the model's fit to the data.
 
 Output:
+
+
+![download](https://github.com/user-attachments/assets/9eb40d41-d897-40d7-bb5c-5b7ca685d170)
 
 
 
