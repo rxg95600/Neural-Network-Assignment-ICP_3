@@ -47,9 +47,12 @@ Output:
     e)	Visualize both train and test data using scatter plot.
 
 Solution:
+
          This Python script, performs linear regression analysis on a dataset that is uploaded via the Colab interface. The script begins by importing necessary libraries including pandas for data manipulation, matplotlib for plotting, and sklearn for machine learning tasks. After uploading the dataset, it loads the data into a DataFrame and splits it into training and testing sets, with one-third of the data reserved for testing. The script then initializes and trains a linear regression model using the training data.
 
 The model is used to make predictions on both the training and testing sets. The Mean Squared Error (MSE) of the predictions on the test set is calculated and printed to evaluate model performance. Finally, the script visualizes the results by plotting scatter plots of both the training and test data, along with their respective regression lines. The plots are displayed with different colors to distinguish between training and test data, helping to visualize the relationship between years of experience and salary, as well as the model's fit to the data.
+
+Output:
 
 
 
